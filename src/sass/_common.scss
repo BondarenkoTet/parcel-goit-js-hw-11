@@ -1,1 +1,72 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    background: rgb(191, 225, 237);
+}
+.search-form {
+    background: blue;
+    box-shadow: 0px 5px 2px rgb(100, 100, 133);
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+width: 80px;
+height: 40px;
+margin-top: 10px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: flex-start;
+}
+
+.photo-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 40px) / 3);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+}   
+.info {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.load-more{
+    display: none;
+    font-size: 20px;
+    background-color: blue;
+    color: #FFFFFF;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
